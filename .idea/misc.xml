@@ -4,6 +4,9 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/david/StudioProjects/tresenraya/app/src/main/res/drawable/box.xml" value="0.26" />
+        <entry key="..\:/Users/david/StudioProjects/tresenraya/app/src/main/res/drawable/ic_baseline_add_circle_outline_24.xml" value="0.3675" />
+        <entry key="..\:/Users/david/StudioProjects/tresenraya/app/src/main/res/drawable/ic_baseline_close_24.xml" value="0.3675" />
+        <entry key="..\:/Users/david/StudioProjects/tresenraya/app/src/main/res/drawable/x.xml" value="0.3675" />
         <entry key="..\:/Users/david/StudioProjects/tresenraya/app/src/main/res/layout/activity_main.xml" value="0.2621082621082621" />
       </map>
     </option>
