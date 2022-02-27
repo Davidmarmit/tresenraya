@@ -6,11 +6,24 @@
     android:weightSum="4" >
 
     <TextView
+        android:id="@+id/maintext"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1">
+        android:layout_weight="0.8"
+        android:text="@string/j1"
+        android:textAlignment="viewStart"
+        android:textSize="50sp">
 
     </TextView>
+
+    <Button
+        android:id="@+id/resetB"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2"
+        android:text="@string/resetB">
+
+    </Button>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -19,25 +32,26 @@
         android:orientation="horizontal"
         android:weightSum="3">
 
-        <ImageButton
+        <Button
             android:id="@+id/button_00"
             android:layout_width="0dp"
             android:layout_height="fill_parent"
             android:layout_weight="1"
-            android:background="@drawable/ic_baseline_close_24"/>
+            android:backgroundTint="@color/green"/>
 
-        <ImageButton
+        <Button
             android:id="@+id/button_01"
             android:layout_width="0dp"
             android:layout_height="fill_parent"
-            android:layout_weight="1"
-            android:background="@drawable/ic_baseline_close_24"/>
+            android:backgroundTint="@color/green"
+            android:layout_weight="1"/>
 
-        <ImageButton
+        <Button
             android:id="@+id/button_02"
             android:layout_width="0dp"
             android:layout_height="fill_parent"
-            android:layout_weight="1"/>
+            android:layout_weight="1"
+            android:backgroundTint="@color/green"/>
     </LinearLayout>
 
     <LinearLayout
@@ -47,22 +61,25 @@
         android:orientation="horizontal"
         android:weightSum="3" >
 
-        <ImageButton
+        <Button
             android:id="@+id/button_10"
             android:layout_width="0dp"
             android:layout_height="fill_parent"
+            android:backgroundTint="@color/green"
             android:layout_weight="1"/>
 
-        <ImageButton
+        <Button
             android:id="@+id/button_11"
             android:layout_width="0dp"
             android:layout_height="fill_parent"
+            android:backgroundTint="@color/green"
             android:layout_weight="1"/>
 
-        <ImageButton
+        <Button
             android:id="@+id/button_12"
             android:layout_width="0dp"
             android:layout_height="fill_parent"
+            android:backgroundTint="@color/green"
             android:layout_weight="1"/>
     </LinearLayout>
 
@@ -73,22 +90,25 @@
         android:orientation="horizontal"
         android:weightSum="3" >
 
-        <ImageButton
+        <Button
             android:id="@+id/button_20"
             android:layout_width="0dp"
             android:layout_height="fill_parent"
+            android:backgroundTint="@color/green"
             android:layout_weight="1"/>
 
-        <ImageButton
+        <Button
             android:id="@+id/button_21"
             android:layout_width="0dp"
             android:layout_height="fill_parent"
+            android:backgroundTint="@color/green"
             android:layout_weight="1"/>
 
-        <ImageButton
+        <Button
             android:id="@+id/button_22"
             android:layout_width="0dp"
             android:layout_height="fill_parent"
+            android:backgroundTint="@color/green"
             android:layout_weight="1"/>
     </LinearLayout>
 
