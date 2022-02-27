@@ -45,9 +45,6 @@ public class MainActivity extends AppCompatActivity {
                         ((Button) v).setText("X");
                         ((Button) v).setTextSize(100);
                         jugador1=false;
-                        if((botons[0][1].getText().equals("X"))&(botons[0][2].getText().equals("X"))){
-                            ((TextView)text).setText("Jugador 1 guanyador");
-                        }
                         ((TextView) text).setText(R.string.j2);
                     } else{
                         ((Button) v).setText("O");
