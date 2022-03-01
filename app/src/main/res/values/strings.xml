@@ -1,3 +1,10 @@
 <resources>
-    <string name="app_name">tresenraya</string>
+    <string name="app_name">Tres en Ralla</string>
+    <string name="jug1">jug1</string>
+    <string name="jug2">jug2</string>
+    <string name="j1">Jugador 1</string>
+    <string name="j2">Jugador 2</string>
+    <string name="resetB">Reset</string>
+    <string name="j1_guanya">Jugador 1 guanya!</string>
+    <string name="j2_guanya">Jugador 2 guanya!</string>
 </resources>
